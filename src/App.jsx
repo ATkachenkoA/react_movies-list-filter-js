@@ -20,7 +20,6 @@ function getSelectedMovies(movies, { query }) {
 }
 
 export const App = () => {
-  // const [sortField, setSortField] = useState('');
   const [query, setQuery] = useState('');
 
   const visibleMovies = getSelectedMovies(moviesFromServer, { query });
